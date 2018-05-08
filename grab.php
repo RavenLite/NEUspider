@@ -187,9 +187,9 @@ function sendPost(){
     );
     //设置post数据
     $post_data = array(
-        'WebUserNO' => '20165086',
+        'WebUserNO' => 'xxxxxxxx',
         'applicant' => 'ACTIONQUERYSTUDENTSCHEDULEBYSELF',
-        'Password' => 'neu5086',
+        'Password' => 'xxxxxxxx',
         'Agnomen' => $agnomn,
         'submit7' => '%B5%C7%C2%BC'
     );
