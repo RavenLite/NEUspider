@@ -54,9 +54,15 @@ function showcourse($courseReCode){
                     }
             }
         }
+		$newarr[0]=[$weeklycoursearr[0],$weeklycoursearr[1],$weeklycoursearr[2],$weeklycoursearr[3],$weeklycoursearr[4],$weeklycoursearr[5],$weeklycoursearr[6]];
+		$newarr[1]=[$weeklycoursearr[7],$weeklycoursearr[8],$weeklycoursearr[9],$weeklycoursearr[10],$weeklycoursearr[11],$weeklycoursearr[12],$weeklycoursearr[13]];
+		$newarr[2]=[$weeklycoursearr[14],$weeklycoursearr[15],$weeklycoursearr[16],$weeklycoursearr[17],$weeklycoursearr[18],$weeklycoursearr[19],$weeklycoursearr[20]];
+		$newarr[3]=[$weeklycoursearr[21],$weeklycoursearr[22],$weeklycoursearr[23],$weeklycoursearr[24],$weeklycoursearr[25],$weeklycoursearr[26],$weeklycoursearr[27]];
+		$newarr[4]=[$weeklycoursearr[28],$weeklycoursearr[29],$weeklycoursearr[30],$weeklycoursearr[31],$weeklycoursearr[32],$weeklycoursearr[33],$weeklycoursearr[34]];
+		$newarr[5]=[$weeklycoursearr[35],$weeklycoursearr[36],$weeklycoursearr[37],$weeklycoursearr[38],$weeklycoursearr[39],$weeklycoursearr[40],$weeklycoursearr[41]];
     }
     //print_r($weeklycoursearr);
-    echo json_encode($weeklycoursearr,JSON_UNESCAPED_UNICODE);
+    echo json_encode($newarr,JSON_UNESCAPED_UNICODE);
 }
 
 /*判断该上课周区间是否在选定周内*/

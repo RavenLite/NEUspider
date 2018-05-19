@@ -24,5 +24,12 @@ function showcourse($courseReCode){
         $index++;
     }
     //print_r($coursearr);//本周42节课的信息-二维数组
-    echo json_encode($coursearr,JSON_UNESCAPED_UNICODE);
+	$newarr[0]=[$coursearr[0],$coursearr[1],$coursearr[2],$coursearr[3],$coursearr[4],$coursearr[5],$coursearr[6]];
+		$newarr[1]=[$coursearr[7],$coursearr[8],$coursearr[9],$coursearr[10],$coursearr[11],$coursearr[12],$coursearr[13]];
+		$newarr[2]=[$coursearr[14],$coursearr[15],$coursearr[16],$coursearr[17],$coursearr[18],$coursearr[19],$coursearr[20]];
+		$newarr[3]=[$coursearr[21],$coursearr[22],$coursearr[23],$coursearr[24],$coursearr[25],$coursearr[26],$coursearr[27]];
+		$newarr[4]=[$coursearr[28],$coursearr[29],$coursearr[30],$coursearr[31],$coursearr[32],$coursearr[33],$coursearr[34]];
+		$newarr[5]=[$coursearr[35],$coursearr[36],$coursearr[37],$coursearr[38],$coursearr[39],$coursearr[40],$coursearr[41]];
+    
+    echo json_encode($newarr,JSON_UNESCAPED_UNICODE);
 }
