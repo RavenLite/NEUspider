@@ -6,13 +6,10 @@ NEU AAO web spider using PHP.
 - 学习PHP，为智慧旅游项目开发做准备
 - 假装预习过JSP
 ## 预期爬取
-  - [东北大学教务处](https://aao.neu.edu.cn/) **√**
-  
-  - [东北大学图书馆](http://www.lib.neu.edu.cn/index.html) **√**
-  
-  - [东北大学校园卡服务中心](http://ecard.neu.edu.cn/) **×**
-  
-  - [东北大学新闻网等资讯网站](http://neunews.neu.edu.cn/campus/) **ing**
+- [东北大学教务处](https://aao.neu.edu.cn/)   **√**
+- [东北大学图书馆](http://www.lib.neu.edu.cn/index.html)   **√**
+- [东北大学校园卡服务中心](http://ecard.neu.edu.cn/)   **×**
+- [东北大学新闻网等资讯网站](http://neunews.neu.edu.cn/campus/)   **ing**
 # 更新日志
 ## v2.0
 ### 18-5-24
