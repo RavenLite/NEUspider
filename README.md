@@ -6,16 +6,27 @@ NEU AAO web spider using PHP.
 - 学习PHP，为智慧旅游项目开发做准备
 - 假装预习过JSP
 ## 预期爬取
-  - [东北大学教务处](https://aao.neu.edu.cn/)
-  
-  - [东北大学图书馆](http://www.lib.neu.edu.cn/index.html)
+  - [东北大学教务处](https://aao.neu.edu.cn/) **√**
   
-  - [东北大学校园卡服务中心](http://ecard.neu.edu.cn/)
+  - [东北大学图书馆](http://www.lib.neu.edu.cn/index.html) **√**
   
-  - [东北大学新闻网等资讯网站](http://neunews.neu.edu.cn/campus/)
+  - [东北大学校园卡服务中心](http://ecard.neu.edu.cn/) **×**
+  
+  - [东北大学新闻网等资讯网站](http://neunews.neu.edu.cn/campus/) **ing**
 # 更新日志
-## v1.1
+## v2.0
 ### 18-5-24
+#### 版本简介
+重大更新，我的图书馆来啦！
+#### 新特性  
+- 爬取图书馆馆藏信息(DomDrawler+XPath)  
+- 爬取本学期考试日程表
+#### 接下来
+- 图书馆功能不稳定，将继续优化
+- 爬取东大新闻网/东大创新网/东大教务处/软件学院官网四个网站的通知信息  
+
+## v1.1
+### 18-5-23
 #### 版本简介
 新增查询本学期成绩  
 #### 新特性  
