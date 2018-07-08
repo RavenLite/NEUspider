@@ -1,4 +1,4 @@
-# NEUAAOspider
+# NEUspider
 NEU web spider using PHP.
 # 项目说明
 ## 开启此项目的目的
